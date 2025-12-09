@@ -1,0 +1,14 @@
+spring:
+  application.name:
+    virus_hacker_web
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB
+    jsp:
+      init-parameters:
+        development: true
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
